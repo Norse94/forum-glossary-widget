@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Widget Glossario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        p { color: #666; line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Test Widget Glossario</h1>
+        <p>Questa è una pagina di test per verificare il funzionamento del widget glossario.</p>
+        <p>Se tutto funziona correttamente, dovresti vedere un <strong>pulsante blu rotondo</strong> in basso a sinistra con l'icona di un libro.</p>
+        <p>Clicca sul pulsante per aprire il glossario!</p>
+
+        <h2>Cosa aspettarsi:</h2>
+        <ul>
+            <li>✅ Pulsante FAB (Floating Action Button) blu in basso a sinistra</li>
+            <li>✅ Click sul pulsante apre il widget glossario</li>
+            <li>✅ Widget mostra: Dashboard, Terms, Activity</li>
+            <li>✅ Dati mock caricati (se Supabase non configurato)</li>
+        </ul>
+    </div>
+
+    <!-- Widget Glossario -->
+    <script src="./glossary-widget.js"></script>
+</body>
+</html>
